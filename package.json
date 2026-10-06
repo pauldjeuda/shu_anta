@@ -1,0 +1,38 @@
+{
+  "name": "shu-anta",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "process:images": "python scripts/process_images.py",
+    "process:logo": "python scripts/process_logo.py",
+    "crop:reference": "python scripts/crop_reference.py",
+    "compare": "node scripts/compare.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/bodoni-moda": "^5.2.5",
+    "@fontsource-variable/raleway": "^5.2.5",
+    "lucide-react": "^0.487.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.18.4"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.21",
+    "playwright": "^1.51.1",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0",
+    "vite-plugin-pwa": "^2.0.0"
+  },
+  "allowScripts": {
+    "esbuild@0.25.12": true
+  }
+}

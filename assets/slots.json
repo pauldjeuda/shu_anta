@@ -1,0 +1,89 @@
+{
+  "hero_bg": {
+    "src": "hero_bg.jpg",
+    "mode": "cover",
+    "ratio": 1.6,
+    "width": 2400,
+    "focus": [
+      0.52,
+      0.32
+    ],
+    "focus_mobile": [
+      0.55,
+      0.35
+    ],
+    "saturation": 1.03,
+    "contrast": 1.04
+  },
+  "jar": {
+    "src": "hero.*",
+    "mode": "cutout",
+    "width": 1400,
+    "shadow": {
+      "dx": -45,
+      "dy": 55,
+      "blur": 30,
+      "opacity": 0.45
+    }
+  },
+  "care_a": {
+    "src": "Capture d’écran 2026-10-06 081753.png",
+    "mode": "cover",
+    "ratio": 0.735,
+    "width": 1200,
+    "saturation": 1.0,
+    "contrast": 1.05,
+    "focus": [
+      0.5,
+      0.45
+    ]
+  },
+  "care_b": {
+    "src": "Capture d’écran 2026-10-06 082032.png",
+    "mode": "cover",
+    "ratio": 0.735,
+    "width": 1200,
+    "saturation": 1.0,
+    "contrast": 1.05,
+    "focus": [
+      0.5,
+      0.45
+    ]
+  },
+  "care_c": {
+    "src": "Capture d’écran 2026-10-06 082452.png",
+    "mode": "cover",
+    "ratio": 2.05,
+    "width": 1200,
+    "focus": [
+      0.5,
+      0.55
+    ],
+    "saturation": 0.55,
+    "contrast": 1.05
+  },
+  "allinone_a": {
+    "src": "Capture d’écran 2026-10-06 082149.png",
+    "mode": "cover",
+    "ratio": 1.95,
+    "width": 1600,
+    "focus": [
+      0.5,
+      0.45
+    ],
+    "saturation": 1.02,
+    "contrast": 1.05
+  },
+  "allinone_b": {
+    "src": "Capture d’écran 2026-10-06 081842.png",
+    "mode": "cover",
+    "ratio": 1.8,
+    "width": 1600,
+    "focus": [
+      0.5,
+      0.5
+    ],
+    "saturation": 1.02,
+    "contrast": 1.05
+  }
+}

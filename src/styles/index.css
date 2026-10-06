@@ -1,0 +1,160 @@
+@import "@fontsource-variable/bodoni-moda";
+@import "@fontsource-variable/raleway";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --footer: #2f3a26;
+  --page: #eeece8;
+  --ink-green: #2f3a26;
+  --ink: #2a2a28;
+  --sage: #8d9a7c;
+  --sage-soft: #a8af9c;
+  --cream: #f4f0e8;
+  --outline: #9a9a92;
+  --font-display: "Bodoni Moda Variable", "Bodoni Moda", serif;
+  --font-sans: "Raleway Variable", "Raleway", sans-serif;
+  /* 1u ≈ 1 % de la largeur de composition (plafonnée à 1600) */
+  --stage-w: min(100vw, 1600px);
+  --u: calc(var(--stage-w) / 100);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+html {
+  overflow-x: clip;
+}
+
+body {
+  margin: 0;
+  background: var(--page);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  /* clip (pas hidden) : évite de casser position:fixed de la navbar */
+  overflow-x: clip;
+}
+
+/* Ne pas forcer height:auto — sinon object-cover / h-full ne remplissent pas les cadres */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+:focus-visible {
+  outline: 2px solid var(--sage);
+  outline-offset: 3px;
+}
+
+.stage {
+  width: 100%;
+  max-width: 1600px;
+  margin-inline: auto;
+  position: relative;
+  container-type: inline-size;
+}
+
+/* Cadres photo : l’image remplit toujours le slot */
+.media-fill {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+}
+
+.media-fill > picture,
+.media-fill > img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.media-fill img {
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0 !important;
+}
+
+#hero,
+#hero *,
+.media-fill,
+.stage img {
+  border-radius: 0;
+}
+
+#hero img {
+  border-radius: 0 !important;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 600ms ease, transform 600ms ease;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-display);
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    line-height: 0.8;
+  }
+
+  .font-display-wide {
+    transform: scaleX(1.03);
+    transform-origin: center bottom;
+    will-change: transform;
+  }
+}

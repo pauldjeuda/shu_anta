@@ -1,0 +1,125 @@
+{
+  "generated": "2026-10-06",
+  "notes": "Toutes les captures Instagram ont un côté court ~460 px (< 800). Qualité insuffisante pour slots 1200–2400 sans upscale. hero.png 418×555. logo.png 879×673 OK.",
+  "files": [
+    {
+      "file": "hero.png",
+      "dims": "418x555",
+      "orientation": "portrait",
+      "subject": "produit seul (savon noir spa + main)",
+      "bg": "uni clair",
+      "light": "douce",
+      "sharpness": "bonne",
+      "text": true,
+      "scores": { "jar": 9, "hero_bg": 3, "care_a": 5 }
+    },
+    {
+      "file": "logo.png",
+      "dims": "879x673",
+      "orientation": "landscape",
+      "subject": "texte-graphique (sceau circulaire SHU ANTA)",
+      "bg": "uni foncé + disque blanc",
+      "scores": { "logo": 10 }
+    },
+    {
+      "file": "Capture …081724.png",
+      "alias": "cap01",
+      "dims": "465x627",
+      "subject": "produit seul (sérum dropper + peau)",
+      "bg": "uni clair bleu",
+      "scores": { "care_a": 7, "hero_bg": 4 }
+    },
+    {
+      "file": "Capture …081753.png",
+      "alias": "cap02",
+      "dims": "468x621",
+      "subject": "produit seul (eau micellaire spray)",
+      "bg": "uni beige",
+      "scores": { "care_a": 8, "care_b": 6 }
+    },
+    {
+      "file": "Capture …081821.png",
+      "alias": "cap03",
+      "subject": "produit seul (mousse nettoyante + eau)",
+      "scores": { "care_a": 6 }
+    },
+    {
+      "file": "Capture …081842.png",
+      "alias": "cap04",
+      "subject": "lot de produits (4 dans panier)",
+      "scores": { "allinone_b": 9, "care_c": 7 }
+    },
+    {
+      "file": "Capture …081908.png",
+      "alias": "cap05",
+      "subject": "produit seul (gel démaquillant)",
+      "scores": { "care_b": 6 }
+    },
+    {
+      "file": "Capture …081947.png",
+      "alias": "cap06",
+      "subject": "produit seul (eau micellaire douce)",
+      "scores": { "care_a": 7 }
+    },
+    {
+      "file": "Capture …082008.png",
+      "alias": "cap07",
+      "subject": "produit seul (huile démaquillante)",
+      "scores": { "care_b": 6 }
+    },
+    {
+      "file": "Capture …082032.png",
+      "alias": "cap08",
+      "subject": "produit seul (sérum ambre dropper)",
+      "scores": { "care_b": 9 }
+    },
+    {
+      "file": "Capture …082101.png",
+      "alias": "cap09",
+      "subject": "produit seul (cold cream + swatch)",
+      "scores": { "jar": 4 }
+    },
+    {
+      "file": "Capture …082125.png",
+      "alias": "cap10",
+      "subject": "produit seul (mousse tradition)",
+      "scores": { "care_a": 6 }
+    },
+    {
+      "file": "Capture …082149.png",
+      "alias": "cap11",
+      "subject": "lot de produits (plateau bois ~6)",
+      "scores": { "allinone_a": 9, "care_c": 6 }
+    },
+    {
+      "file": "Capture …082239.png",
+      "alias": "cap12",
+      "subject": "ambiance / peau (dos + 3 soins corps)",
+      "scores": { "hero_bg": 8, "allinone_a": 5 }
+    },
+    {
+      "file": "Capture …082306.png",
+      "alias": "cap13",
+      "subject": "produit seul (gel masque + orange)",
+      "scores": { "care_a": 5 }
+    },
+    {
+      "file": "Capture …082352.png",
+      "alias": "cap14",
+      "subject": "lot de produits (bras / peignoir)",
+      "scores": { "allinone_b": 6, "hero_bg": 5 }
+    },
+    {
+      "file": "Capture …082452.png",
+      "alias": "cap15",
+      "subject": "lot de produits (plan de toilette paysage)",
+      "scores": { "care_c": 8, "allinone_a": 7 }
+    },
+    {
+      "file": "Capture …082521.png",
+      "alias": "cap16",
+      "subject": "produit seul (mousse sous bulles)",
+      "scores": { "care_b": 5 }
+    }
+  ]
+}
