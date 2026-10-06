@@ -118,6 +118,13 @@ export const en: Messages = {
     careOne: "1 care",
     careMany: "{n} cares",
   },
+  pwa: {
+    installTitle: "Install SHU ANTA",
+    installText: "Add the app to your home screen for quick access.",
+    installCta: "Install",
+    iosHint: "On iPhone: Share → Add to Home Screen → Add.",
+    dismiss: "Dismiss",
+  },
   pages: {
     about: {
       title: "About",

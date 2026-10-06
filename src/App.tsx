@@ -16,6 +16,7 @@ import BlogPage, { BlogArticlePage } from "./pages/BlogPage";
 import MentionsPage from "./pages/MentionsPage";
 import PrivacyPage from "./pages/PrivacyPage";
 import CartPage from "./pages/CartPage";
+import InstallPrompt from "./components/InstallPrompt";
 
 function PageMain({ children }: { children: React.ReactNode }) {
   return (
@@ -34,6 +35,7 @@ export default function App() {
           <ToastStyles />
           <ScrollToTop />
           <Navbar />
+          <InstallPrompt />
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route

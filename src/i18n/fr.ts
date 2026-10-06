@@ -118,6 +118,14 @@ export const fr: Messages = {
     careOne: "1 soin",
     careMany: "{n} soins",
   },
+  pwa: {
+    installTitle: "Installer SHU ANTA",
+    installText: "Ajoutez l’app sur votre écran d’accueil pour un accès rapide.",
+    installCta: "Installer",
+    iosHint:
+      "Sur iPhone : Partager → Sur l’écran d’accueil → Ajouter.",
+    dismiss: "Fermer",
+  },
   pages: {
     about: {
       title: "À propos",

@@ -159,4 +159,11 @@ export type Messages = {
     allinone_a: string;
     allinone_b: string;
   };
+  pwa: {
+    installTitle: string;
+    installText: string;
+    installCta: string;
+    iosHint: string;
+    dismiss: string;
+  };
 };

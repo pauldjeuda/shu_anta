@@ -1,4 +1,5 @@
 {
+  "id": "/",
   "name": "SHU ANTA",
   "short_name": "SHU ANTA",
   "description": "Cosmétiques naturels, pensés au Cameroun — savons, soins corps et routines visage.",
@@ -7,7 +8,7 @@
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "orientation": "portrait-primary",
+  "orientation": "any",
   "background_color": "#eeece8",
   "theme_color": "#2f3a26",
   "categories": ["shopping", "lifestyle"],
@@ -15,12 +16,14 @@
     {
       "src": "/brand/icon-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
       "src": "/brand/icon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
       "src": "/brand/icon-512.png",
